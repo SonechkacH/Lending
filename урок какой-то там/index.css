@@ -1,0 +1,132 @@
+@font-face {
+    font-family: "Boozy";
+    src: url(ofont.ru_Boozy.ttf)
+}
+
+/* HEADER */
+.header{
+    width:100%;
+    color:white;
+    padding: 20px;
+    background:pink;
+    box-sizing: border-box;
+    font-family: Boozy;
+    font-size: 20px;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.menu-item{
+    list-style: none;
+}
+
+.menu-link{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu-link{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.container{
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.menu{
+    margin-left: 90px;
+}
+
+.banner-title, .banner-description{
+    text-align: center;
+    color:white;
+}
+
+.banner-title{
+    font-size: 48px;
+    font-family: Boozy;
+    font-size: 50px;
+}
+
+.banner-section{
+    padding: 100px 0;
+    background: url(banner1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.cards-section{
+    padding: 50px 0px;
+
+}
+
+.cards-title, .cards-discription{
+color:#DB7093;
+text-align: right;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.cards-title{
+    font-family: Boozy;
+    margin-top: 100px;
+    font-size: 50px;
+}
+
+.card{
+    padding: 25px;
+    margin-top: 25px;
+    width: 25%;
+    background: white;
+    box-shadow: 0px 2px 40px 0px #DB7093;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.cards-link{
+    text-decoration: none;
+    color: white;
+}
+
+.cards-button{
+    text-align: center;
+    background:#DB7093;
+    padding: 10px 70px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.card-title, .card-text{
+    margin-top: 10px;
+}
+
+.card-title{
+    color:#DB7093;
+    font-family: Boozy;
+    font-size: 30px;
+
+}
+
+.footer{
+    background: url(banner1.jpg);
+    background-size: cover;
+    padding: 100px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.copyright{
+    color: white;
+}
+
+.cards-button{
+    cursor: pointer;
+}
